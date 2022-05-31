@@ -50,7 +50,7 @@ ARG USERNAME
 ARG IMAGE_WS_DIR
 
 RUN apt-get clean
-RUN apt-get update && apt-get install -y \
+RUN sudo apt-get update && apt-get install -y \
     lsb  \
     unzip \
     wget \
